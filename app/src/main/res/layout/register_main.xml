@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <!-- Instagram Logo -->
+    <ImageView
+        android:id="@+id/instagram_logo"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:src="@drawable/instagram_logo"
+        android:layout_marginTop="@dimen/khoangcach120"
+        android:layout_marginBottom="@dimen/khoangcach20"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@null"
+        />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/khoangcach50"
+        android:hint="@string/user_name"
+        android:textSize="@dimen/text_size_16"
+        android:inputType="text"
+        android:background="@drawable/semi_50_white_background"
+        android:padding="@dimen/khoangcach_10"
+        android:textColorHint="@color/trans_white_50"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/khoangcach50"
+        android:layout_marginEnd="@dimen/khoangcach50"
+        android:layout_marginTop="@dimen/khoangcach20"
+        app:layout_constraintTop_toBottomOf="@id/instagram_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/khoangcach50"
+        android:hint="@string/pass_word"
+        android:inputType="textPassword"
+        android:textSize="@dimen/text_size_16"
+        android:background="@drawable/semi_50_white_background"
+        android:padding="@dimen/khoangcach_10"
+        android:textColorHint="@color/trans_white_50"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/khoangcach50"
+        android:layout_marginEnd="@dimen/khoangcach50"
+        android:layout_marginTop="@dimen/khoangcach20"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Confrm Password Input -->
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/khoangcach50"
+        android:hint="@string/confirm_pass_word"
+        android:inputType="textPassword"
+        android:textSize="@dimen/text_size_16"
+        android:background="@drawable/semi_50_white_background"
+        android:padding="@dimen/khoangcach_10"
+        android:textColorHint="@color/trans_white_50"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/khoangcach50"
+        android:layout_marginEnd="@dimen/khoangcach50"
+        android:layout_marginTop="@dimen/khoangcach20"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/khoangcach50"
+        android:text="@string/register"
+        android:textSize="@dimen/text_size_16"
+        android:background="@drawable/transparent_button_with_white_border"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/khoangcach50"
+        android:layout_marginEnd="@dimen/khoangcach50"
+        android:layout_marginTop="@dimen/khoangcach20"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <!-- OR Text -->
+    <LinearLayout
+        android:id="@+id/or_linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/register_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/khoangcach50"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/or_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or_text"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/khoangcach_10"
+            android:paddingRight="@dimen/khoangcach_10"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/khoangcach50"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <!-- Login Redirect -->
+    <TextView
+        android:id="@+id/loginRedirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_account"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:textStyle="normal"
+        android:layout_marginTop="@dimen/khoangcach20"
+        app:layout_constraintTop_toBottomOf="@id/or_linear_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

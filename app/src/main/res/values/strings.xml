@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login Form</string>
+    <string name="user_name">Username</string>
+    <string name="pass_word">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password_text">Forgot <b>Password</b></string>
+    <string name="or_text">Or</string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="none_account_text">Dont have account yet? Create one.</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already have account? <b><i>Login</i></b></string>
+    <string name="confirm_pass_word">Confirm Password</string>
+    <string name="new_pass_word">New Password</string>
+    <string name="return_to_login">Return to <b><i>Login</i></b>.</string>
+    <string name="change_password">Change Password</string>
+    <string name="confirm_new_pass_word">Confirm New Password</string>
+</resources>

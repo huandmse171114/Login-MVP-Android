@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Default screen margins per the Android Design guidelines  -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--  Dinh nghia khoang cach margin  -->
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+
+    <!--  Dinh nghia khoang cach padding  -->
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_32">32dp</dimen>
+    <dimen name="padding_48">48dp</dimen>
+
+    <!--  Dinh nghia khoang cach text size  -->
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_240">240dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="khoangcach120">120dp</dimen>
+    <dimen name="khoangcach20">20dp</dimen>
+    <dimen name="khoangcach50">50dp</dimen>
+    <dimen name="khoangcach_10">10dp</dimen>
+    <dimen name="khoangcach40">40dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+
+
+</resources>
